@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecionando...</title>
+
+    <script>
+      // Guarda a rota original
+      sessionStorage.redirect = location.pathname + location.search + location.hash;
+    </script>
+
+    <!-- Redireciona para a raiz -->
+    <meta http-equiv="refresh" content="0; URL=/" />
+  </head>
+  <body></body>
+</html>
